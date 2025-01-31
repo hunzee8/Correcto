@@ -5,7 +5,7 @@ import threading
 class SpellCheckerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Spell Checker")
+        self.root.title("Correcto")
         self.root.geometry("850x700")
         self.root.resizable(True, True)
 
