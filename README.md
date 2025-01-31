@@ -1,6 +1,7 @@
-# SpellChecker
 
-This project is a spell checker application with a modern Python GUI (using `customtkinter`) and a C++ backend for spell-checking logic. The C++ backend uses a **Trie data structure** and **Levenshtein distance algorithm** to provide spelling suggestions.
+# Correcto: Spell Checker with Python GUI and C++ Backend
+
+**Correcto** is a spell checker application with a modern Python GUI (using `customtkinter`) and a C++ backend for spell-checking logic. The C++ backend uses a **Trie data structure** and **Levenshtein distance algorithm** to provide spelling suggestions.
 
 ---
 
@@ -41,9 +42,9 @@ This project is a spell checker application with a modern Python GUI (using `cus
      1. Finds all words in the Trie that start with the same prefix.
      2. Uses the Levenshtein distance to rank similar words.
      3. Suggests the closest matches based on the dynamic threshold.
-        
+
 ### Algorithm in Simple Terms
-Imagine you’re typing a word, but you make a typo. The program tries to help you by:
+Imagine you’re typing a word, but you make a typo. **Correcto** tries to help you by:
 1. **Looking up the word in a dictionary** (stored in a Trie for fast searching).
 2. If the word is misspelled, it **finds similar words** by:
    - Checking words that start with the same letters (using the Trie).
@@ -83,8 +84,8 @@ Imagine you’re typing a word, but you make a typo. The program tries to help y
 ### For Windows:
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/spell-checker.git
-   cd spell-checker
+   git clone https://github.com/hunzee8/correcto.git
+   cd correcto
    ```
 2. **Compile the C++ Backend**:
    Open a terminal in the project directory and run:
@@ -99,8 +100,8 @@ Imagine you’re typing a word, but you make a typo. The program tries to help y
 ### For Linux:
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/spell-checker.git
-   cd spell-checker
+   git clone https://github.com/hunzee8/correcto.git
+   cd correcto
    ```
 2. **Compile the C++ Backend**:
    Open a terminal in the project directory and run:
@@ -123,7 +124,7 @@ Imagine you’re typing a word, but you make a typo. The program tries to help y
 
 ## Project Structure
 ```
-spell-checker/
+correcto/
 ├── GUI.py                # Python GUI code
 ├── spellchecker.cpp      # C++ backend code
 ├── spellchecker.exe      # Compiled C++ executable (Windows)
