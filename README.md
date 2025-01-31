@@ -1,5 +1,5 @@
 
-# Correcto: Spell Checker with Python GUI and C++ Backend
+# Correcto: The Spell Checker
 
 **Correcto** is a spell checker application with a modern Python GUI (using `customtkinter`) and a C++ backend for spell-checking logic. The C++ backend uses a **Trie data structure** and **Levenshtein distance algorithm** to provide spelling suggestions.
 
