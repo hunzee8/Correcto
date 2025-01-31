@@ -55,8 +55,8 @@ Imagine you’re typing a word, but you make a typo. The program tries to help y
 ## Prerequisites
 
 ### For Windows:
-1. **Python**: Install Python from [python.org](https://www.python.org/).
-2. **C++ Compiler**: Install [MinGW](http://www.mingw.org/) or [Microsoft Visual Studio](https://visualstudio.microsoft.com/).
+1. **Python**: Install Python.
+2. **C++ Compiler**: Install MinGW.
 3. **CustomTkinter**: Install the `customtkinter` library:
    ```bash
    pip install customtkinter
